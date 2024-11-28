@@ -4,7 +4,7 @@ const port = 3000
 
 const api = require('./routes')
 
-// Right to connect to MongoDB first then open Port.
+// How to connect to MongoDB first then open Port?
 
 mongoose.connect("mongodb://localhost:27017/store")
     .then(() => console.log("Connected to MongoDB"))
