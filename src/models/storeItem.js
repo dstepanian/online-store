@@ -3,11 +3,6 @@ const { Schema } = mongoose;
 
 
 const storeItemSchema = new Schema({
-    id: {
-        type: String,
-        required: true,
-        unique: true
-    },
     title: {
         type: String,
         required: true
