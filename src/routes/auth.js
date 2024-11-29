@@ -5,6 +5,7 @@ const { registerValidation } = require('../middleware/validations');
 const {validationResult} = require("express-validator");
 const { isAdmin } = require('../middleware/auth');
 
+
 const router = express.Router();
 
 router.post('/register', registerValidation, async (req, res) => {
